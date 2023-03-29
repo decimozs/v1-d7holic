@@ -19,16 +19,16 @@ export const socialLinks : Array<SocialLinks> = [
     {
         title : "Instagram",
         link : "/",
-        hover: "hover:text-red"
+        hover: "hover:text-black"
     },
     {
         title : "Github",
         link : "/",
-        hover: "hover:text-red"
+        hover: "hover:text-black"
     },
     {
         title : "LinkedIn",
         link : "/",
-        hover: "hover:text-red"
+        hover: "hover:text-black"
     }
 ]
