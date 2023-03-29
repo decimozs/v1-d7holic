@@ -1,54 +1,34 @@
-import { Playgrounds, Skills, Socials } from "@/interface";
+import { NavLinks, SocialLinks } from "@/interface";
 
-export const skillList : Array<Skills> = [
+export const navLinks : Array<NavLinks> = [
     {
-        title : "Competitive Programming",
-        class : "bg-green-500"
+        title : "Index",
+        link : "/"
     },
     {
-        title : "Java",
-        class : "bg-orange-500"
+        title : "About",
+        link : "/"
     },
     {
-        title : "Python",
-        class : "bg-yellow-500"
-    },
-    {
-        title : "C++",
-        class : "bg-pink-500"
-    },
-    {
-        title : "TypeScript",
-        class : "bg-blue-500"
+        title : "Contact",
+        link : "/"
     },
 ]
 
-export const socialLinks : Array<Socials> = [
+export const socialLinks : Array<SocialLinks> = [
     {
         title : "Instagram",
-        link : '/'
+        link : "/",
+        hover: "hover:text-red"
     },
     {
         title : "Github",
-        link : '/'
+        link : "/",
+        hover: "hover:text-red"
     },
     {
         title : "LinkedIn",
-        link : '/'
-    }
-]
-
-export const playgroundLinks : Array<Playgrounds> = [
-    {
-        title : "LeetCode",
-        link : '/'
-    },
-    {
-        title : "HackerRank",
-        link : '/'
-    },
-    {
-        title : "CodeWars",
-        link : '/'
+        link : "/",
+        hover: "hover:text-red"
     }
 ]

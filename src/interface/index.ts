@@ -1,14 +1,8 @@
-export interface Skills {
-    title : String
-    class : String
-}
-
-export interface Socials {
+export interface NavLinks {
     title : String
     link : String
 }
 
-export interface Playgrounds {
-    title : String
-    link : String
+export interface SocialLinks extends NavLinks {
+    hover : String
 }

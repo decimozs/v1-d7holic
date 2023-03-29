@@ -1,21 +1,20 @@
 import React from 'react'
 import Picture from './Picture'
 import Link from 'next/link'
+import { navLinks } from '@/constants'
 
 export default function Nav() {
   return (
-    <div>
-
-        <Link href='/'>
-          <p  className='left font-light text-[2rem]'>About</p>
-        </Link>
-
-        <Picture/>
-
-        <Link href='/'>
-          <p  className='text-right font-light text-[2rem]'>Contact</p>
-        </Link>
-
-    </div>
+    <nav className='fixed top-[5rem] left-0 p-[2rem]'>
+      <ul className=''>
+        {navLinks.map((item, index) => (
+          <li key={index}>
+            <Link href={`${item.link}`}>
+              {item.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
   )
 }

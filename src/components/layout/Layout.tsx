@@ -9,7 +9,7 @@ const font = Archivo({
 
 const Layout : FunctionComponent <LayoutProps> = ({children}) => {
   return (
-    <main className = "bg-[white] fixed top-0 left-0 h-full w-full text-black tracking-[-2px]" id={font.className}>
+    <main className = "bg-[white] fixed top-0 left-0 h-full w-full max-w-[1980px] text-black tracking-[-2px] text-[1rem]" id={font.className}>
         <Meta/>
         {children}
     </main>

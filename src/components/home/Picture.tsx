@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import { me } from '../../../public/images'
+import { m1, me } from '../../../public/images'
 
 export default function Picture() {
   return (
-    <div className='relative w-[250px] h-[300px]'>
-        <Image src={me} alt="pogi" layout='fill'></Image>
-    </div>
+      <div className='fixed bottom-[4.5rem] right-0 pl-[2rem]'>
+        <Image src={m1} alt="pogi"></Image>
+      </div>
   )
 }
