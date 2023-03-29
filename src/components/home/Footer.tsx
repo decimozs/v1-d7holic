@@ -13,7 +13,7 @@ export default function Footer() {
                 </li>
             ))}
             </ul>
-            <p className='hidden sm:block'>Portfolio</p>
+            <p className='hidden sm:block font-bold'>Portfolio 2023</p>
         </div>
     </div>
   )
