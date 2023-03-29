@@ -2,7 +2,7 @@ import { achievementsLinks } from '@/constants'
 import Link from 'next/link'
 import React from 'react'
 
-export default function () {
+export default function Achievements() {
   return (
     <div>
         <ul>
