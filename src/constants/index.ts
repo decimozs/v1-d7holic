@@ -2,32 +2,32 @@ import { NavLinks, PlaygroundLinks, SocialLinks } from "@/interface";
 
 export const navLinks : Array<NavLinks> = [
     {
-        title : "Index",
+        title : " Index",
         link : "/"
     },
     {
-        title : "About",
+        title : " About",
         link : "/about"
     },
     {
-        title : "Contact",
+        title : " Contact",
         link : "/contact"
     },
 ]
 
 export const socialLinks : Array<SocialLinks> = [
     {
-        title : "Instagram 🡥",
+        title : "Instagram",
         link : "/",
         hover: "hover:text-gray-500 transition-all"
     },
     {
-        title : "Github 🡥",
+        title : "Github",
         link : "/",
         hover: "hover:text-gray-500 transition-all"
     },
     {
-        title : "LinkedIn 🡥",
+        title : "LinkedIn",
         link : "/",
         hover: "hover:text-gray-500 transition-all"
     }
@@ -35,12 +35,12 @@ export const socialLinks : Array<SocialLinks> = [
 
 export const playgroundLinks : Array<PlaygroundLinks> = [
     {
-        title : "Leetcode 🡥",
+        title : "Leetcode",
         link : "/",
         hover: "hover:text-gray-500 transition-all"
     },
     {
-        title : "HackerRank 🡥",
+        title : "HackerRank",
         link : "/",
         hover: "hover:text-gray-500 transition-all"
     },
