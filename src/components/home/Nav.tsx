@@ -10,7 +10,7 @@ export default function Nav() {
     <nav className='fixed top-[5rem] left-0 p-[2rem]'>
       <ul className=''>
         {navLinks.map((item, index) => (
-          <li key={index} className={router.pathname == item.link ? "text-black uppercase transition-all" : "uppercase hover:text-black transition-all"}>
+          <li key={index} className={router.pathname == item.link ? "text-black uppercase transition-all font-bold" : "uppercase hover:text-black transition-all text-gray-600"}>
             <Link href={`${item.link}`}>
               {item.title}
             </Link>
