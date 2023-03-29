@@ -7,11 +7,11 @@ export const navLinks : Array<NavLinks> = [
     },
     {
         title : "About",
-        link : "/"
+        link : "/about"
     },
     {
         title : "Contact",
-        link : "/"
+        link : "/contact"
     },
 ]
 
@@ -19,16 +19,16 @@ export const socialLinks : Array<SocialLinks> = [
     {
         title : "Instagram",
         link : "/",
-        hover: "hover:text-black"
+        hover: "hover:text-black transition-all"
     },
     {
         title : "Github",
         link : "/",
-        hover: "hover:text-black"
+        hover: "hover:text-black transition-all"
     },
     {
         title : "LinkedIn",
         link : "/",
-        hover: "hover:text-black"
+        hover: "hover:text-black transition-all"
     }
 ]
