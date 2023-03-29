@@ -6,3 +6,7 @@ export interface NavLinks {
 export interface SocialLinks extends NavLinks {
     hover : String
 }
+
+export interface PlaygroundLinks extends NavLinks {
+    hover : String
+}

@@ -1,4 +1,4 @@
-import { NavLinks, SocialLinks } from "@/interface";
+import { NavLinks, PlaygroundLinks, SocialLinks } from "@/interface";
 
 export const navLinks : Array<NavLinks> = [
     {
@@ -17,18 +17,31 @@ export const navLinks : Array<NavLinks> = [
 
 export const socialLinks : Array<SocialLinks> = [
     {
-        title : "Instagram",
+        title : "Instagram 🡥",
         link : "/",
-        hover: "hover:text-black transition-all"
+        hover: "hover:text-gray-500 transition-all"
     },
     {
-        title : "Github",
+        title : "Github 🡥",
         link : "/",
-        hover: "hover:text-black transition-all"
+        hover: "hover:text-gray-500 transition-all"
     },
     {
-        title : "LinkedIn",
+        title : "LinkedIn 🡥",
         link : "/",
-        hover: "hover:text-black transition-all"
+        hover: "hover:text-gray-500 transition-all"
     }
+]
+
+export const playgroundLinks : Array<PlaygroundLinks> = [
+    {
+        title : "Leetcode 🡥",
+        link : "/",
+        hover: "hover:text-gray-500 transition-all"
+    },
+    {
+        title : "HackerRank 🡥",
+        link : "/",
+        hover: "hover:text-gray-500 transition-all"
+    },
 ]
