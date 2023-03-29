@@ -10,3 +10,11 @@ export interface SocialLinks extends NavLinks {
 export interface PlaygroundLinks extends NavLinks {
     hover : String
 }
+
+export interface AchievementsLinks extends NavLinks {
+    hover : String
+}
+
+export interface CertificationLinks extends NavLinks {
+    hover : String
+}
