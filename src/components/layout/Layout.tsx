@@ -11,7 +11,7 @@ const font = Archivo({
 
 const Layout : FunctionComponent <LayoutProps> = ({children}) => {
   return (
-    <main className = "bg-[white] fixed top-0 left-0 h-full w-full max-w-[1980px] text-black tracking-[-1px] text-[1rem]" id={font.className}>
+    <main className = "antialiased bg-[white] fixed top-0 left-0 h-full w-full max-w-[1980px] text-black tracking-[-1px] text-[1rem]" id={font.className}>
         <Header />
         <Nav />
         <Meta/>
