@@ -1,4 +1,5 @@
 <h1 align = "center">Marlon Martin - Portfolio</h1>
+<p align = "center">A full-stack minimalist portfolio developed and designed by Marlon Martin.</p>
 
 <div align = "center">
     <img src = "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
