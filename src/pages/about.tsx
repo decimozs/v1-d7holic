@@ -4,6 +4,7 @@ import Playgrounds from '@/components/shared/Playgrounds'
 import Socials from '@/components/shared/Socials'
 import Achievements from '@/components/shared/Achievements'
 import Certificates from '@/components/shared/Certificates'
+import Link from 'next/link'
 
 export default function about() {
   return (
@@ -25,7 +26,7 @@ export default function about() {
           </div>
           <div>
             <div className='mb-[2rem]'>
-              <p  className='mb-2 font-bold'>Socials</p>
+              <p  className='mb-2 font-bold'>Networks</p>
               <Socials />
             </div>
             <div>
