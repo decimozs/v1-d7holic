@@ -1,12 +1,23 @@
 import React from 'react'
 import Link from 'next/link'
+import { contactLinks } from '@/constants'
 
 export default function ContactContext() {
   return (
-    <div className='p-[2rem] flex flex-col font-bold uppercase'>
-      <Link href="/">Email</Link>
-      <p className='fixed bottom-0 right-0 p-[2rem]'>Design and Develop by Marlon Martin</p>
-      <Link href='/' className='text-right'>Contact Form</Link>
+    <div className='p-[2rem] flex flex-col uppercase'>
+      <div className='w-full max-w-[300px] mb-[1rem] font-bold'>
+      <p>Open to another opportunity to gain knowledge and share my expertise in tech-related fields.</p>
+      </div>
+      <ul>
+        {contactLinks.map((item, index) => (
+          <li key={index}>
+            <Link href={`${item.link}`} className={`${item.hover}`}>
+              {item.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+      <p className='fixed bottom-0 right-0 p-[2rem] text-[0.7rem]'>decimodev © 2023 ALL RIGHTS RESERVED.</p>
     </div>
   )
 }
