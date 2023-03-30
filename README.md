@@ -1,4 +1,4 @@
-<h1 align = "center">Marlon Martin - Portfolio</h1>
+<h1 align = "center">☄️ Marlon Martin - Portfolio ☄️</h1>
 <p align = "center">A full-stack minimalist portfolio developed and designed by Marlon Martin.</p>
 
 <div align = "center">
