@@ -1,4 +1,4 @@
-import { AchievementsLinks, CertificationLinks, NavLinks, PlaygroundLinks, SocialLinks } from "@/interface";
+import { AchievementsLinks, CertificationLinks, ContactLinks, NavLinks, PlaygroundLinks, SocialLinks } from "@/interface";
 
 export const navLinks : Array<NavLinks> = [
     {
@@ -19,7 +19,7 @@ export const socialLinks : Array<SocialLinks> = [
     {
         title : "Instagram",
         link : "/",
-        hover: "hover:text-pink-500 hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     },
     {
         title : "Github",
@@ -29,7 +29,7 @@ export const socialLinks : Array<SocialLinks> = [
     {
         title : "LinkedIn",
         link : "/",
-        hover: "hover:text-blue-600 hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     }
 ]
 
@@ -37,12 +37,12 @@ export const playgroundLinks : Array<PlaygroundLinks> = [
     {
         title : "Leetcode",
         link : "/",
-        hover: "hover:text-yellow-500 hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     },
     {
         title : "HackerRank",
         link : "/",
-        hover: "hover:text-green-500 hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     },
 ]
 
@@ -73,6 +73,24 @@ export const achievementsLinks : Array<AchievementsLinks> = [
 export const certificationLinks : Array<CertificationLinks> = [
     {
         title : "Problem Solving 1",
+        link : "/",
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+    },
+]
+
+export const contactLinks : Array<ContactLinks> = [
+    {
+        title : "@decimolabs",
+        link : "/",
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+    },
+    {
+        title : "@decimodev",
+        link : "/",
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+    },
+    {
+        title : "contact form",
         link : "/",
         hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     },

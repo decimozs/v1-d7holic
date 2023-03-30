@@ -18,3 +18,7 @@ export interface AchievementsLinks extends NavLinks {
 export interface CertificationLinks extends NavLinks {
     hover : String
 }
+
+export interface ContactLinks extends NavLinks {
+    hover : String
+}
