@@ -85,17 +85,22 @@ export const certificationLinks : Array<CertificationLinks> = [
 
 export const contactLinks : Array<ContactLinks> = [
     {
+        title : "resume",
+        link : "/",
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+    },
+    {
+        title : "contact form",
+        link : "/",
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+    },
+    {
         title : "@decimolabs",
         link : "/",
         hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     },
     {
         title : "@decimodev",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "contact form",
         link : "/",
         hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     },
