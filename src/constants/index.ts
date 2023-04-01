@@ -44,6 +44,11 @@ export const playgroundLinks : Array<PlaygroundLinks> = [
         link : "/",
         hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     },
+    {
+        title : "Codewars",
+        link : "/",
+        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
+    },
 ]
 
 
