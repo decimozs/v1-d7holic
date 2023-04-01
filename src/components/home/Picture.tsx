@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { m1, me, m2 } from '../../../public/images'
+import { m2 } from '../../../public/images'
 
 export default function Picture() {
   return (
