@@ -13,7 +13,7 @@ export default function Footer() {
                 </li>
             ))}
             </ul>
-            <p className='hidden sm:block font-bold xl:fixed xl:left-0 xl:p-[2rem] xl: bottom-0'>2023 SPRING</p>
+            <p className='hidden font-bold xl:block xl:fixed xl:left-0 xl:p-[2rem] xl: bottom-0'>2023 SPRING</p>
             <p className='hidden sm:block font-bold xl:fixed xl:right-0 xl:p-[2rem] xl: bottom-0'>Portfolio</p>
         </div>
     </div>
