@@ -1,3 +1,4 @@
+
 export interface NavLinks {
     title : String
     link : String
@@ -22,3 +23,4 @@ export interface CertificationLinks extends NavLinks {
 export interface ContactLinks extends NavLinks {
     hover : String
 }
+

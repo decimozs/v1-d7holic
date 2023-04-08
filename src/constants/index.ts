@@ -69,7 +69,7 @@ export const achievementsLinks : Array<AchievementsLinks> = [
         hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     },
     {
-        title : "Best System Funcionality",
+        title : "Best System Functionality",
         link : "/",
         hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
     },
