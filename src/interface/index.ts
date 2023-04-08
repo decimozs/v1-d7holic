@@ -1,26 +1,13 @@
-
-export interface NavLinks {
-    title : String
-    link : String
-}
-
-export interface SocialLinks extends NavLinks {
-    hover : String
-}
-
-export interface PlaygroundLinks extends NavLinks {
-    hover : String
-}
-
-export interface AchievementsLinks extends NavLinks {
-    hover : String
-}
-
-export interface CertificationLinks extends NavLinks {
-    hover : String
-}
-
-export interface ContactLinks extends NavLinks {
-    hover : String
-}
-
+export type Link = {
+    title: string;
+    link: string;
+    hover: string;
+  };
+  
+  export type NavLinks = Link;
+  export type SocialLinks = Link;
+  export type PlaygroundLinks = Link;
+  export type AchievementsLinks = Link;
+  export type CertificationLinks = Link;
+  export type ContactLinks = Link;
+  
