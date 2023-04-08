@@ -1,15 +1,21 @@
 import { socialLinks } from '@/constants';
 import Link from 'next/link';
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
+
+interface SocialLink {
+  title: string;
+  link: string;
+  hover: string;
+}
 
 export default function Footer() {
-  const ulVariants = {
+  const ulVariants: Variants = {
     initial: { opacity: 0 },
     animate: { opacity: 1 },
   };
 
-  const divVariants = {
+  const divVariants: Variants = {
     initial: { opacity: 0 },
     animate: { opacity: 1 },
   };
@@ -36,7 +42,7 @@ export default function Footer() {
           animate="animate"
           transition={ulTransition}
         >
-          {socialLinks.map((item, index) => (
+          {socialLinks.map((item: SocialLink, index: number) => (
             <li key={index} className={`${item.hover}`}>
               <Link href={`${item.link}`}>{item.title}</Link>
             </li>
