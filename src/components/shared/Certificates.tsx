@@ -8,7 +8,7 @@ const Certificates: React.FC = () => {
       <ul>
         {certificationLinks.map(({ title, link, hover }, index) => (
           <li key={index} className={hover}>
-            <Link href={link}>{title}</Link>
+            <Link href={link} target="_blank">{title}</Link>
           </li>
         ))}
       </ul>

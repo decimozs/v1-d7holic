@@ -13,8 +13,8 @@ export const navLinks: Link[] = [
 const hover ="hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline";
 
 export const socialLinks: Link[] = [
-  { title: "Instagram", link: "/", hover: hover },
-  { title: "Github", link: "/", hover: hover },
+  { title: "Instagram", link: "https://www.instagram.com/decimomrtn/", hover: hover },
+  { title: "Github", link: "https://github.com/decimoDev", hover: hover },
   { title: "LinkedIn", link: "/", hover: hover },
 ];
 

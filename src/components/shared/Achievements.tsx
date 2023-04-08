@@ -8,7 +8,7 @@ const Achievements: React.FC = () => {
       <ul>
         {achievementsLinks.map(({ title, link, hover }, index) => (
           <li key={index} className={hover}>
-            <Link href={link}>{title}</Link>
+            <Link href={link} target="_blank">{title}</Link>
           </li>
         ))}
       </ul>

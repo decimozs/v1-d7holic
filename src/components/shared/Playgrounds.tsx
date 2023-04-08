@@ -14,7 +14,7 @@ const Playgrounds: React.FC = () => {
       <ul>
         {playgroundLinks.map(({ title, link, hover }: PlaygroundLink, index) => (
           <li key={index} className={hover}>
-            <Link href={link}>{title}</Link>
+            <Link href={link} target="_blank">{title}</Link>
           </li>
         ))}
       </ul>

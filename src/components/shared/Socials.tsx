@@ -14,7 +14,7 @@ const Socials: React.FC= () => {
       <ul>
         {socialLinks.map((item: SocialLink, index: number) => (
           <li key={index} className={item.hover}>
-            <Link href={item.link}>{item.title}</Link>
+            <Link href={item.link} target="_blank">{item.title}</Link>
           </li>
         ))}
       </ul>
