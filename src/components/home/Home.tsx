@@ -1,12 +1,14 @@
 import React from 'react';
-import Footer from './Footer';
-import Picture from './Picture';
+import dynamic from 'next/dynamic';
+
+const DynamicPicture = dynamic(() => import('./Picture'))
+const DynamicFooter = dynamic(() => import('./Footer'))
 
 export default function Home() {
   return (
     <section className='w-full h-full flex items-center justify-center flex-col p-[2rem]'>
-      <Picture />
-      <Footer key="footer" />
+      <DynamicPicture />
+      <DynamicFooter key="footer" />
     </section>
   );
 }
