@@ -19,9 +19,9 @@ export const socialLinks: Link[] = [
 ];
 
 export const playgroundLinks: Link[] = [
-  { title: "Leetcode", link: "/", hover: hover },
-  { title: "HackerRank", link: "/", hover: hover },
-  { title: "Codewars", link: "/", hover: hover },
+  { title: "Leetcode", link: "https://leetcode.com/DecimoDevs/", hover: hover },
+  { title: "HackerRank", link: "https://www.hackerrank.com/decimoz", hover: hover },
+  { title: "Codewars", link: "https://www.codewars.com/users/Decimoz", hover: hover },
 ];
 
 export const achievementsLinks: Link[] = [
