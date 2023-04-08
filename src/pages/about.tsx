@@ -1,9 +1,12 @@
 import React from 'react';
 import { NextPage } from 'next';
-import Achievements from '@/components/shared/Achievements';
-import Certificates from '@/components/shared/Certificates';
-import Playgrounds from '@/components/shared/Playgrounds';
-import Socials from '@/components/shared/Socials';
+import dynamic from 'next/dynamic';
+
+const DynamicAchievements = dynamic(() => import('@/components/shared/Achievements'))
+const DynamicCertificates = dynamic(() => import('@/components/shared/Certificates'))
+const DynamicPlaygrounds = dynamic(() => import('@/components/shared/Playgrounds'))
+const DynamicSocials = dynamic(() => import('@/components/shared/Socials'))
+
 
 const About: NextPage = () => {
   return (
@@ -21,21 +24,21 @@ const About: NextPage = () => {
           <div>
             <div>
               <p className="mb-2 font-bold">Achievements</p>
-              <Achievements />
+              <DynamicAchievements />
             </div>
             <div className="mt-[2rem]">
               <p className="mb-2 font-bold">Certifications</p>
-              <Certificates />
+              <DynamicCertificates />
             </div>
           </div>
           <div>
             <div className="mb-[2rem]">
               <p className="mb-2 font-bold">Networks</p>
-              <Socials />
+              <DynamicSocials />
             </div>
             <div>
               <p className="mb-2 font-bold">Playgrounds</p>
-              <Playgrounds />
+              <DynamicPlaygrounds />
             </div>
           </div>
         </div>
