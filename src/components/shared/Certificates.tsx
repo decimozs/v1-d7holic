@@ -1,17 +1,19 @@
-import { certificationLinks } from '@/constants'
-import Link from 'next/link'
-import React from 'react'
+import { certificationLinks } from '@/constants';
+import Link from 'next/link';
+import React, { FC } from 'react';
 
-export default function Certificates() {
+const Certificates: React.FC = () => {
   return (
     <div>
-        <ul>
-            {certificationLinks.map((item, index) => (
-                <li key={index} className={`${item.hover}`}>
-                    <Link href={`${item.link}`} >{item.title}</Link>
-                </li>
-            ))}
-        </ul>
+      <ul>
+        {certificationLinks.map(({ title, link, hover }, index) => (
+          <li key={index} className={hover}>
+            <Link href={link}>{title}</Link>
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
+
+export default Certificates

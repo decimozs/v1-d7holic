@@ -1,17 +1,25 @@
-import React from 'react'
-import { socialLinks } from '@/constants'
-import Link from 'next/link'
+import React from 'react';
+import { socialLinks } from '@/constants';
+import Link from 'next/link';
 
-export default function Socials() {
+interface SocialLink {
+  title: string;
+  link: string;
+  hover: string;
+}
+
+const Socials: React.FC= () => {
   return (
     <div>
-        <ul>
-            {socialLinks.map((item, index) => (
-                <li key={index} className={`${item.hover}`}>
-                    <Link href={`${item.link}`} >{item.title}</Link>
-                </li>
-            ))}
-        </ul>
+      <ul>
+        {socialLinks.map((item: SocialLink, index: number) => (
+          <li key={index} className={item.hover}>
+            <Link href={item.link}>{item.title}</Link>
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
+
+export default Socials

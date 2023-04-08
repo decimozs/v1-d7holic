@@ -1,17 +1,25 @@
-import { playgroundLinks } from '@/constants'
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
+import { playgroundLinks } from '@/constants';
 
-export default function Playgrounds() {
+interface PlaygroundLink {
+  title: string;
+  link: string;
+  hover: string;
+}
+
+const Playgrounds: React.FC = () => {
   return (
     <div>
-       <ul>
-            {playgroundLinks.map((item, index) => (
-                <li key={index} className={`${item.hover}`}>
-                    <Link href={`${item.link}`}>{item.title}</Link>
-                </li>
-            ))}
-       </ul>
+      <ul>
+        {playgroundLinks.map(({ title, link, hover }: PlaygroundLink, index) => (
+          <li key={index} className={hover}>
+            <Link href={link}>{title}</Link>
+          </li>
+        ))}
+      </ul>
     </div>
-  )
-}
+  );
+};
+
+export default Playgrounds;
