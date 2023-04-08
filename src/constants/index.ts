@@ -1,107 +1,43 @@
-import { AchievementsLinks, CertificationLinks, ContactLinks, NavLinks, PlaygroundLinks, SocialLinks } from "@/interface";
+import { NavLinks } from "@/interface";
 
-export const navLinks : Array<NavLinks> = [
-    {
-        title : " Index",
-        link : "/"
-    },
-    {
-        title : " About",
-        link : "/about"
-    },
-    {
-        title : " Contact",
-        link : "/contact"
-    },
-]
+interface Link extends NavLinks {
+  hover: string;
+}
 
-export const socialLinks : Array<SocialLinks> = [
-    {
-        title : "Instagram",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "Github",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "LinkedIn",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    }
-]
+export const navLinks: Link[] = [
+  { title: "Index", link: "/", hover: "Home" },
+  { title: "About", link: "/about", hover: "Info" },
+  { title: "Contact", link: "/contact", hover: "Get in Touch" },
+];
 
-export const playgroundLinks : Array<PlaygroundLinks> = [
-    {
-        title : "Leetcode",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "HackerRank",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "Codewars",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-]
+const hover ="hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline";
 
+export const socialLinks: Link[] = [
+  { title: "Instagram", link: "/", hover: hover },
+  { title: "Github", link: "/", hover: hover },
+  { title: "LinkedIn", link: "/", hover: hover },
+];
 
-export const achievementsLinks : Array<AchievementsLinks> = [
-    {
-        title : "Best Developer Presenter",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "Best Overall System",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "Best System Design",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "Best System Functionality",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-]
+export const playgroundLinks: Link[] = [
+  { title: "Leetcode", link: "/", hover: hover },
+  { title: "HackerRank", link: "/", hover: hover },
+  { title: "Codewars", link: "/", hover: hover },
+];
 
-export const certificationLinks : Array<CertificationLinks> = [
-    {
-        title : "Problem Solving 1",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-]
+export const achievementsLinks: Link[] = [
+  { title: "Best Developer Presenter", link: "/", hover: hover },
+  { title: "Best Overall System", link: "/", hover: hover },
+  { title: "Best System Design", link: "/", hover: hover },
+  { title: "Best System Functionality", link: "/", hover: hover },
+];hover
 
-export const contactLinks : Array<ContactLinks> = [
-    {
-        title : "resume",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "contact form",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "@decimolabs",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-    {
-        title : "@decimodev",
-        link : "/",
-        hover: "hover:text-black hover:font-bold transition-all hover:underline-offset-4 hover:underline"
-    },
-]
+export const certificationLinks: Link[] = [
+  { title: "Problem Solving 1", link: "/", hover: hover },
+];
+
+export const contactLinks: Link[] = [
+  { title: "resume", link: "/", hover: hover },
+  { title: "contact form", link: "/", hover: hover },
+  { title: "@decimolabs", link: "/", hover: hover },
+  { title: "@decimodev", link: "/", hover: hover },
+];
