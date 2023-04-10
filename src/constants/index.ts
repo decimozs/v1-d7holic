@@ -15,7 +15,7 @@ const hover ="hover:text-black hover:font-bold transition-all hover:underline-of
 export const socialLinks: Link[] = [
   { title: "Instagram", link: "https://www.instagram.com/decimomrtn/", hover: hover },
   { title: "Github", link: "https://github.com/decimoDev", hover: hover },
-  { title: "LinkedIn", link: "/", hover: hover },
+  { title: "LinkedIn", link: "www.linkedin.com/in/decimomartin", hover: hover },
 ];
 
 export const playgroundLinks: Link[] = [
@@ -38,6 +38,6 @@ export const certificationLinks: Link[] = [
 export const contactLinks: Link[] = [
   { title: "resume", link: "/", hover: hover },
   { title: "contact form", link: "/", hover: hover },
-  { title: "@decimolabs", link: "/", hover: hover },
-  { title: "@decimodev", link: "/", hover: hover },
+  { title: "@decimolabs", link: "https://github.com/DecimoLabs", hover: hover },
+  { title: "@decimodev", link: "mailto:martinmarlon1116@gmail.com", hover: hover },
 ];
