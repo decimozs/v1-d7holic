@@ -1,13 +1,14 @@
 import React, { ReactNode } from 'react'
 import Meta from '@/meta/Meta'
 import { FunctionComponent } from 'react'
-import {Archivo} from 'next/font/google'
+import { Lato } from 'next/font/google'
 import Header from '../home/Header'
 import Nav from '../home/Nav'
 import { motion } from 'framer-motion'
 
-const font = Archivo({
-  subsets : ['latin']
+const font = Lato({
+  subsets: ['latin'],
+  weight: '100'
 })
 
 const Layout : FunctionComponent <LayoutProps> = ({children}) => {
