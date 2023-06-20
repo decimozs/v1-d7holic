@@ -38,6 +38,6 @@ export const certificationLinks: Link[] = [
 export const contactLinks: Link[] = [
   { title: "resume", link: "/", hover: hover },
   { title: "contact form", link: "/", hover: hover },
-  { title: "@decimolabs", link: "https://github.com/DecimoLabs", hover: hover },
-  { title: "@decimodev", link: "mailto:martinmarlon1116@gmail.com", hover: hover },
+  { title: "@d7Collective", link: "https://github.com/d7Collective", hover: hover },
+  { title: "@decimosz", link: "mailto:martinmarlon1116@gmail.com", hover: hover },
 ];
